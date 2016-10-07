@@ -1,4 +1,4 @@
-html {
+body {
   background-color:#c9b5ab;
 }
 
@@ -9,4 +9,10 @@ title {
 
 .latin {
   font-style: italic;
+}
+
+nav {
+  font-family: PT Sans;
+  font-size:1.125rem;
+  color: #8f2440;
 }
