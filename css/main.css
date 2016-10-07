@@ -10,10 +10,6 @@ h1 h2 {
   font-size: 1.5rem;
 }
 
-.latin {
-  font-style: italic;
-}
-
 nav {
   font-family: PT Sans;
   font-size: 1.125rem;
@@ -69,5 +65,14 @@ dt {
 
 ul > li {
   font-size: 0.8rem;
+  list-style-type: circle;
+}
 
+footer {
+    font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  
 }
