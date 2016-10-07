@@ -1,9 +1,11 @@
 body {
   background-color:#c9b5ab;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125rem;
 }
 
 h1, h2, {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -13,7 +15,7 @@ h1, h2, {
 
 nav {
   font-family: PT Sans;
-  font-size:1.125rem;
+  font-size: 1.125rem;
   color: #8f2440;
 }
 
@@ -28,6 +30,43 @@ figcaption {
 }
 
 p:first-child {
-  font-family: 'Patua One', cursive;
-  font-size:1.125rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.beet {
+  font-weight: bold;
+}
+
+cite {
+  font-style: italic;
+}
+
+.battle {
+  font-style: italic;
+}
+
+blockquote {
+  line-height: 1.5;
+}
+
+blockquote > cite {
+  font-size: 0.8rem;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+dl {
+  font-style: italic;
+}
+
+dt: {
+  font-weight: bold;
+}
+
+ul > li: {
+  font-size: 0.8rem
+  
 }
