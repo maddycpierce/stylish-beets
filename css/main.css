@@ -61,7 +61,7 @@ dl {
   font-style: italic;
 }
 
-dt {
+dt dd {
   font-weight: bold;
   color: #3f1622;
 }
