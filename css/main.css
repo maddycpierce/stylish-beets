@@ -2,7 +2,7 @@ body {
   background-color:#c9b5ab;
 }
 
-title {
+h1, h2, {
   font-family: PT Sans;
   font-size: 1.5rem;
 }
@@ -15,4 +15,19 @@ nav {
   font-family: PT Sans;
   font-size:1.125rem;
   color: #8f2440;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+p:first-child {
+  font-family: 'Patua One', cursive;
+  font-size:1.125rem;
 }
