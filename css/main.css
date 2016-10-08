@@ -61,11 +61,11 @@ ol {
   list-style-type: lower-greek;
 }
 
-dt :first-of-type {}
+dt :first-child {
   font-style: italic;
 }
 
-dt dd {
+dt {
   font-weight: bold;
   color: #3f1622;
 }
