@@ -11,12 +11,12 @@ h1 h2 {
   font-size: 1.5rem;
 }
 
-nav {
+nav > ol > li {
   font-family: PT Sans;
   font-size: 1.125rem;
   color: #8f2440;
-  text-decoration: none;
   list-style-type: none;
+  text-decoration: none;
 }
 
 img {
