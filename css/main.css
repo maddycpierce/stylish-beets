@@ -17,6 +17,7 @@ nav > ol > li {
   color: #8f2440;
   list-style-type: none;
   text-decoration: none;
+  font-weight: bold;
 }
 
 img {
@@ -28,7 +29,7 @@ figcaption {
   text-align: center;
 }
 
-p:first-child {
+p:first-of-type {
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -48,6 +49,8 @@ cite {
 
 blockquote {
   line-height: 1.5;
+  font-weight: bold;
+
 }
 
 blockquote > cite {
@@ -58,7 +61,7 @@ ol {
   list-style-type: lower-greek;
 }
 
-dl {
+dt :first-of-type {}
   font-style: italic;
 }
 
@@ -77,6 +80,11 @@ footer {
 }
 
 a:hover {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a {
   color: #8f2440;
   text-decoration: none;
 }
